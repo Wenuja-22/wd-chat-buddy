@@ -12,7 +12,7 @@
         },
         {
             "tag": "about",
-            "patterns": ["Who", "name", "about you", "your owner", "created"],
+            "patterns": ["Who", "name", "contact us", "about you", "your owner", "created"],
             "responses": [
                 "I am WD World MODEL 001 an advanced AI chatbot created for communication, problem solving & personal assistance. I am created by Wenuja Dharmapala an undergraduate of BICT. For more info kindly visit :- https://wenuja-22.github.io/my-portfolio/"
             ]
