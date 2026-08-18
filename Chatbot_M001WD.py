@@ -1,5 +1,6 @@
 import os 
-from app import api_key
+import streamlit as st
+api_key = st.secrets["GEMINI_API_KEY"]
 from google import genai
 #import warnings
 #warnings.filterwarnings("ignore")
