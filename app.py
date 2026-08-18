@@ -15,7 +15,7 @@ for message in st.session_state.messages:
 
 suggestions = [
     "Hey...",
-    "About You",
+    "Contact Us",
     "Define AI"
 ]
 
