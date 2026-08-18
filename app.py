@@ -1,5 +1,8 @@
 import streamlit as st
 from Chatbot_M001WD import get_response
+from google import genai
+api_key = st.secrets["GEMINI_API_KEY"]
+client = genai.Client(api_key=api_key)
 
 st.title("WD World Chat-Buddy")
 
