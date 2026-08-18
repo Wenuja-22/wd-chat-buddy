@@ -2,7 +2,7 @@
     "commands": [
         {
             "tag": "greeting",
-            "patterns": ["Hi", "Hey", "What's up?", "Hello", "Is anyone there?", "Good day"],
+            "patterns": ["Hi", "Hey", "What's up?", "Hello", "anyone there?", "Good day"],
             "responses": [
                 "Hi, what's up?",
                 "Hello there! How can I help you today?",
