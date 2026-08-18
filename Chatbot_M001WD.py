@@ -1,10 +1,10 @@
 import os 
 import streamlit as st
-api_key = st.secrets["GEMINI_API_KEY"]
 from google import genai
+api_key = st.secrets["GEMINI_API_KEY"]
 #import warnings
 #warnings.filterwarnings("ignore")
-client = genai.Client(api_key)
+client = genai.Client(api_key=api_key)
 import random
 import json
 import torch
