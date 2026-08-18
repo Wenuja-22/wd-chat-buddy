@@ -1,8 +1,9 @@
 import os 
+from app import api_key
 from google import genai
 #import warnings
 #warnings.filterwarnings("ignore")
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key)
 import random
 import json
 import torch
