@@ -17,7 +17,7 @@ suggestions = [
     "Hey...",
     "About You",
     "Contact Us",
-    "What is AI?"
+    "Define AI"
 ]
 
 st.markdown("**Suggested Questions:**")
