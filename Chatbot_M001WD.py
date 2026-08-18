@@ -2,7 +2,7 @@ import os
 from google import genai
 #import warnings
 #warnings.filterwarnings("ignore")
-client = genai.Client(api_key="AQ.Ab8RN6Jz6v4gEYA5JAHUvyjjQHPA_xqOpwx_qZCuSdhfKSs8Xg")
+client = genai.Client(api_key=GEMINI_API_KEY)
 import random
 import json
 import torch
